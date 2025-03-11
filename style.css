@@ -75,5 +75,36 @@ p{
     text-transform: uppercase;
 }
 
+.subtitulo{
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #c6c6c6;
+    text-align: right;
+    padding: 40px;
+}
+
+.vantagens{
+    background: #FFFFFF;
+    padding: 40px;
+}
+
+.vantagens-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.vantagens-item p{
+    grid-column: 2;
+}
+
+.rodape{
+    background: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
 
 
