@@ -75,6 +75,7 @@ body{
 
 .container-1-div-escrito-3{
     display: flex;
+    justify-content: space-between;
 }
 
 .pic-container-1-div-escrito-3{
@@ -83,6 +84,23 @@ body{
 
 .titulo-container-1-div-escrito-3{
     padding-top: 10px;
+}
+
+.paragrafo-container-1-div-escrito-3 {
+    margin-top: 10px; /* Adds space between title and paragraph */
+  
+}
+
+.container-3{
+    background-color: #FFFFFF;
+    margin-top: 80px;
+}
+
+.titulo-container-3{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 400;
 }
 
 
