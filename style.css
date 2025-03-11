@@ -17,6 +17,8 @@ body{
     background-color: #FFFFFF;
     margin-right: 15px; 
     padding: 10px 30px 10px 30px;  
+    text-decoration: none;
+    color: #000000;
 }
 
 .container-1{
