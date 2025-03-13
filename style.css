@@ -43,73 +43,90 @@ p{
 }
 
 .menu-item:hover{
-    border: 2px solid #ee2211;
+    border: 0.125rem solid #ee2211;
 }
 
 
 .conteudo{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
+    max-width: 62.5rem;
 }
 
 .introducao{
     background: #FFFFFF;
-    padding: 40px;
+    padding: 2.5rem;
     text-align: right;
     position: relative;
     display: grid;
     align-content: center;
-    gap: 20px;
+    gap: 1.25rem;
     justify-items: end;
 }
 
-.detalhe{
-    width: 60px;
-    height: 4px;
+.introducao::before{
+    content: "";
+    width: 3.75rem;
+    height: 0.25rem;
     background: #ee2211;
     position: absolute;
-    top: 30px;
-    right: -30px;
+    top: 1.875rem;
+    right: -1.875rem;
 }
 
 .botao{
     background: #ee2211;
     color: #FFFFFF;
-    padding: 15px 30px;
-    border-radius: 4px;
+    padding: 0.938rem 1.875rem;
+    border-radius: 0.25rem;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #900900;
 }
 
 .subtitulo{
-    font-size: 64px;
+    font-size: 4rem;
     text-transform: uppercase;
     color: #c6c6c6;
     text-align: right;
-    padding: 40px;
+    padding: 2.5rem;
+    background-image: url(./assets/onda.svg);
+    margin-top: 6rem;
+    margin-bottom: 8.3rem;
 }
 
 .vantagens{
     background: #FFFFFF;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .vantagens-item{
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 10px 20px;
-    padding: 20px;
+    gap: 0.625rem 1.25rem;
+    padding: 1.25rem;
 }
 
 .vantagens-item p{
     grid-column: 2;
 }
 
+.vantagens-item:nth-child(odd){
+    background: #f7f7f7;
+}
+
+.vantagens-item:hover{
+    border-left: 0.25rem solid #ee2211;
+}
+
 .rodape{
     background: #FFFFFF;
     width: 100%;
     text-align: center;
-    padding: 40px;
+    padding: 2.5rem;
     box-sizing: border-box;
 }
 
